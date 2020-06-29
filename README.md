@@ -25,11 +25,11 @@ We approach this project in 2 phases:
 
 Goal of this project is to predict individuals who are most likely to become customers for a mail-order sales company in Germany.
 
-Model:
+**Model:**
 1. For unsupervised learning, I use PCA and Kmeans.
 2. For supervised learning, I use Xgboost and RandomForest as a votingregressor.
 
-Metrics:
+**Metrics:**
 1. Use calinski_harabz score, inertia score and davies_bouldin score to evaluate and assess the best cluster number of Kmeans.
 2. Use ROC-AUC score to evaluate the VotingRegressor Model for the reason that the data is quite imbalanced.
 
